@@ -1,0 +1,94 @@
+/* ***Base styling for the page*** */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*extra opptinal content attempted*/
+h1 {
+  font-size: 175%;
+  text-align: center;
+}
+
+.card-item {
+  padding: 0px 10px 10px 10px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.pink {
+  background-color: #D79898;
+}
+
+.maroon {
+  background-color: #B64B45;
+}
+
+.yellow {
+  background-color: #E9D19A;
+}
+
+.white-text {
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  width: 45%;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: -10px;
+  padding: 10px;
+}
+
+.section-body {
+  clear: right;
+}
+
+/* ***Styling for desktop (992px and above)*** */
+@media (min-width: 992px) {
+
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .responsive-div {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+}
+
+
+/* ***Styling for tablet devices (768px to 991px)*** */
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-div {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .section-title-on-tablet {
+    width: 30%;
+  }
+
+  .full-length-on-tablet {
+    width: 100%;
+  }
+}
+
+
+/* ***Styling for the mobile devices (767px and below)*** */
+@media (max-width: 767px) {
+  .responsive-div {
+    float: left;
+    padding: 10px;
+  }
+
+  .section-title {
+    width: 35%;
+  }
+}
